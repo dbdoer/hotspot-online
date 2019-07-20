@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>实时更新各大平台热度榜单-By LookCos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<h2 class = "font-weight-light">LookCos榜单聚合<small class = "font-weight-light">-实时更新</small></h2>
+</br>
+
+<div class="row">
+    <div class="col-sm-3">         
+        <h6>百度热点事件</h6>
+        <a target="_blank" href="#" id="baidusj0" class="list-group-item list-group-item-action">没有数据</a>
+        <a target="_blank" href="#" id="baidusj1" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj2" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj3" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj4" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj5" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj6" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj7" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj8" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidusj9" class="list-group-item list-group-item-action border-top-0">没有数据</a>
+    </div>
+    <div class="col-sm-3">         
+        <h6>百度实时热点</h6>
+        <a target="_blank" href="#" id="baidurd0" class="list-group-item list-group-item-action">没有数据</a>
+        <a target="_blank" href="#" id="baidurd1" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd2" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd3" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd4" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd5" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd6" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd7" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd8" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="baidurd9" class="list-group-item list-group-item-action border-top-0">没有数据</a>
+    </div>
+    <div class="col-sm-3">         
+        <h6>微博热搜榜</h6>
+        <a target="_blank" href="#" id="weibo0" class="list-group-item list-group-item-action">没有数据</a>
+        <a target="_blank" href="#" id="weibo1" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo2" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo3" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo4" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo5" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo6" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo7" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo8" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="weibo9" class="list-group-item list-group-item-action border-top-0">没有数据</a>
+    </div>
+    <div class="col-sm-3">         
+        <h6>贴吧热门讨论</h6>
+        <a target="_blank" href="#" id="tieba0" class="list-group-item list-group-item-action">没有数据</a>
+        <a target="_blank" href="#" id="tieba1" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba2" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba3" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba4" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba5" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba6" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba7" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba8" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="tieba9" class="list-group-item list-group-item-action border-top-0">没有数据</a>
+    </div> 
+  </div>
+  
+  <div class="row">
+        <div class="col-sm-6">
+        <h6>V2EX热帖</h6>
+        <a target="_blank" href="#" id="vsite0" class="list-group-item list-group-item-action">没有数据</a>
+        <a target="_blank" href="#" id="vsite1" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite2" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite3" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite4" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite5" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite6" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite7" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite8" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="vsite9" class="list-group-item list-group-item-action border-top-0">没有数据</a>
+    </div>
+    <div class="col-sm-6">         
+        <h6>知乎热榜</h6>
+        <a target="_blank" href="#" id="zhihu0" class="list-group-item list-group-item-action">没有数据</a>
+        <a target="_blank" href="#" id="zhihu1" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu2" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu3" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu4" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu5" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu6" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu7" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu8" class="list-group-item list-group-item-action border-top-0 border-bottom-0">没有数据</a>
+        <a target="_blank" href="#" id="zhihu9" class="list-group-item list-group-item-action border-top-0">没有数据</a>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+function html_xr(data_item){
+  var page = "/hotapi.php?jsoncallback=?&item=" + data_item;
+  $.getJSON(page, function(data_all){
+    for(var i = 0; i <= data_all.length; i++)
+  { 
+    var id_name = data_item + i;
+    var x=i+1
+    document.getElementById(id_name).innerHTML = '<small class="font-weight-normal">'+x+'.'+data_all[i]['name']+'</small>';
+    document.getElementById(id_name).setAttribute("href", data_all[i]['url']);
+    }})};
+html_xr("baidusj");
+html_xr("baidurd");
+html_xr("weibo");
+html_xr("tieba");
+html_xr("vsite");
+html_xr("zhihu");
+
+</script>>
+</html>
